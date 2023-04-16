@@ -2,7 +2,7 @@ import React from "react";
 import me from "../assets/me.jpg";
 import email from "../assets/email.svg";
 import linkedin from "../assets/linkedin.svg";
-import verified from "../assets/verified.svg";
+import verified from "../assets/verified.png";
 import web from "../assets/web.svg";
 
 export default function Profile() {
