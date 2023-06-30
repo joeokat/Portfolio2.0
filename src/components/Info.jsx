@@ -6,7 +6,7 @@ export default function Info() {
       <div className="about--me">
         <h3>About</h3>
         <p>
-          Hi there, I am Joshua, founder of Fleet Labs Ghana and JoeOkat Hub.
+          Hi there, I am Joshua, founder of Fleet Labs Ghana and JoeOkat Media Hub.
         </p>
         <p>
           I am creating affordable websites and mobile applications for small

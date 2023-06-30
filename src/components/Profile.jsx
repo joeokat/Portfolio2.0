@@ -11,7 +11,7 @@ export default function Profile() {
       <img className="profile--image" src={me} alt="Joshua" />
       <div>
         <h4 className="full--name">
-          Joshua Ofosu
+          Joshua O. Ofosu
           <img src={verified} alt="" className="icon" />
         </h4>
 
