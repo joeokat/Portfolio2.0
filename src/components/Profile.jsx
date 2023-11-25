@@ -11,11 +11,11 @@ export default function Profile() {
       <img className="profile--image" src={me} alt="Joshua" />
       <div>
         <h4 className="full--name">
-          Joshua O. Ofosu
+          Joshua Ofosu
           <img src={verified} alt="" className="icon" />
         </h4>
 
-        <p className="job--title">Project Manager</p>
+        <p className="job--title">UX/UI Designer</p>
         <a
           className="web--link"
           href="https://behance.net/joeokat"
