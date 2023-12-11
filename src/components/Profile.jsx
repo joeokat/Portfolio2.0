@@ -15,7 +15,7 @@ export default function Profile() {
           <img src={verified} alt="" className="icon" />
         </h4>
 
-        <p className="job--title">UX/UI Designer</p>
+        <p className="job--title">Software Designer</p>
         <a
           className="web--link"
           href="https://behance.net/joeokat"
