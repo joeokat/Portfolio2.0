@@ -10,8 +10,11 @@
 }
 
 .profile--image {
-  width: 315px;
-  border-radius: 10px 10px 0px 0px;
+  display: block;
+  margin: 10px auto 0;
+  padding-top: 8px;
+  width: 157px;
+  border-radius: 50%;
 }
 
 .full--name {
