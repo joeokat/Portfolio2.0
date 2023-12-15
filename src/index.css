@@ -4,7 +4,7 @@
 
 body {
   margin: auto;
-  max-width: 317px;
+  min-width: 320px;
   max-height: 780px;
   background: #23252c;
   color: azure;
