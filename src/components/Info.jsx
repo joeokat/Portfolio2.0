@@ -6,17 +6,16 @@ export default function Info() {
       <div className="about--me">
         <h3>About</h3>
         <p>
-          Hi there, I am Joshua, founder of Fleet Labs Ghana and the JoeOkat DIY Hive.
+          Hi there, I am Joshua, founder of Fleet Labs Ghana and DIYH.
         </p>
         <p>
-          I am creating affordable websites and mobile applications for small
-          businesses from now to December 2023. Don't miss out on this rare
-          opportunity.
+          I am building affordable Websites and Mobile Apps for small
+          businesses and individuals from now to July 2024. Don't miss out on this rare opportunity.
         </p>
       </div>
       <div className="my--skills">
         <h3>Skills</h3>
-        <p>Project Management, UI/UX Design, Web Development, Mobile App Design, Tech Consultancy, Social Media Management.</p>
+        <p>Project Management, Branding, UI/UX Design, Web Design, App Design, Tech Consultancy, Social Media Management.</p>
       </div>
     </div>
   );
