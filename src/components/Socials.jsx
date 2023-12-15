@@ -13,7 +13,7 @@ export default function Socials() {
           <img src={whatsapp} alt="" />
         </a>
         <a
-          href="https://instagram.com/joeokatgh"
+          href="https://instagram.com/joeokatofficial"
           target="_blank"
           rel="noreferrer"
         >
