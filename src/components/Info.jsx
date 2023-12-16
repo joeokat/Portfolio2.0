@@ -6,11 +6,10 @@ export default function Info() {
       <div className="about--me">
         <h3>About</h3>
         <p>
-          Hi there, I am Joshua, founder of Fleet Labs Ghana and DIYH.
+          Hi there! I am Joshua, founder of Fleet Labs Ghana and DIYH.
         </p>
         <p>
-          I am building affordable Websites and Mobile Apps for small
-          businesses and individuals from now to July 2024. Don't miss out on this rare opportunity.
+          I am building affordable Websites and Mobile Apps for small and medium size businesses from now to July 2024. Don't miss out on this rare opportunity to grow your business.
         </p>
       </div>
       <div className="my--skills">
