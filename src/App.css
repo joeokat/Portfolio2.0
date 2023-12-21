@@ -94,7 +94,6 @@
   align-items: center;
   margin: 0 auto;
   padding: 22px 35px;
-  max-width: 480px;
   background: #1a1b21;
 }
 
@@ -115,7 +114,6 @@
   border-radius: 20px;
   border-radius: 20px;
   background: var(--Linear-2, linear-gradient(-120deg, rgba(157, 77, 82, 0.37) -24.31%, #10192c 48.11%));
-  margin-trim: block;
 }
 
   .card h2 {
@@ -146,6 +144,7 @@ span {
   height: 40px;
   border-radius: 15px;
   padding: 8px 14px;
+  font: inherit;
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;
