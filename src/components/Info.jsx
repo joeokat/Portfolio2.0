@@ -16,7 +16,7 @@ export default function Info() {
       <div className="card">
         <h2>Get real world skills! <br /> Go from Zero to Boosu!</h2>
         <p className="b--ads">Are you feeling stuck or overwhelmed in your career journey? Don't worry, <span>BYOI</span> got your back! Together, we'll work to level up your skills, increase your earning potential, and build a brighter future.</p>
-        <a href=""><button className="join--button">Join us today</button></a>
+        <a href="https://wa.me/0509994874"><button className="join--button">Join us today</button></a>
       </div>
 
       {/* <div className="my--skills">
