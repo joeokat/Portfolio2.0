@@ -109,10 +109,11 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   margin-top: 24px;
   padding: 1.5rem;
-  border-radius: 20px;
-  border-radius: 20px;
+  border-radius: 20px; 
   background: var(--Linear-2, linear-gradient(-120deg, rgba(157, 77, 82, 0.37) -24.31%, #10192c 48.11%));
 }
 
