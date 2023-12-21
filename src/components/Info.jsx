@@ -1,4 +1,5 @@
 import React from "react";
+import message from "../assets/message.svg";
 
 export default function Info() {
   return (
@@ -16,7 +17,8 @@ export default function Info() {
       <div className="card">
         <h2>Get real world skills! Go from Zero to Booossu!</h2>
         <p className="b--ads">Are you feeling stuck or overwhelmed in your career journey? Don't worry, <span>BYOI</span> got your back! Together, we'll work to level up your skills, increase your earning potential, and build a brighter future.</p>
-        <a className="join--button" href="https://wa.me/233261430256" rel="noreferrer" target="_blank">Join us today</a>
+
+        <a className="join--button" href="https://wa.me/233261430256" rel="noreferrer" target="_blank">Join us today<img src={message} alt="" className="icon" /></a>
       </div>
 
       <div className="my--skills">
