@@ -110,7 +110,8 @@
 
 .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+  justify-content: center;
   margin-top: 24px;
   padding: 1.5rem;
   border-radius: 20px; 
