@@ -117,7 +117,7 @@
 }
 
   .card h2 {
-  font-size: xx-large;
+  font-size: x-large;
   line-height: 40px;
 }
 
@@ -144,7 +144,6 @@ span {
   height: 40px;
   border-radius: 15px;
   padding: 8px 14px;
-  font: inherit;
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;
