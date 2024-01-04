@@ -118,16 +118,27 @@
   padding: 1.5rem;
   border-radius: 20px; 
   background: var(--Linear-2, linear-gradient(-120deg, rgba(157, 77, 82, 0.37) -24.31%, #10192c 48.11%));
+  position: relative;
 }
 
-  .card h2 {
+.card h2 {
     margin: 0;
     font-size: 32px;
 }
-
-.b--ads {
+.card p{
   font-size: 16px;
   color: #dcdcdc;
+}
+.b--ads {
+  position: absolute;
+  top: 0;
+  right: 0;
+  align-self: flex-end;
+  font-size: 12px;
+  font-weight: 600;
+  color: #212121;
+  padding: 2px 8px;
+  background-color: #F6BF47;
 }
 
 span {
