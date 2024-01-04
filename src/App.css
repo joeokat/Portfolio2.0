@@ -121,8 +121,8 @@
 }
 
   .card h2 {
-  font-size: xx-large;
-  line-height: 40px;
+    margin: 0;
+    font-size: 32px;
 }
 
 .b--ads {
