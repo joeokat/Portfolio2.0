@@ -136,9 +136,10 @@
   align-self: flex-end;
   font-size: 12px;
   font-weight: 600;
-  color: #212121;
-  padding: 2px 8px;
-  background-color: #F6BF47;
+  color: #fafafa;
+  padding: 2px 18px;
+  background-color: #5093e2;
+  border-radius: 0 20px 0 20px; 
 }
 
 span {
