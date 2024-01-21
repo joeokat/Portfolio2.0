@@ -15,7 +15,7 @@ export default function Info() {
       </div>
 
       <div className="card">
-        <div className="b--ads">Facebook Ads</div>
+        <div className="b--ads">Spartan Ads</div>
         <h2>Go from Zero to Booossu!</h2>
         <p>Develop skills you can apply right away, with curated e-learning courses designed by <span>BYOI</span> experts. <br /> Learn at your own pace and get certified.</p>
 
