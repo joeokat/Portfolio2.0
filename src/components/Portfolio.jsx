@@ -1,6 +1,7 @@
 import React from 'react'
 import web from "../assets/web.svg"
 import me from "../assets/me.jpg";
+import odx from "../assets/odx.png";
 
 export const Portfolio = () => {
   return (
@@ -9,7 +10,7 @@ export const Portfolio = () => {
         
             <div className="portfolio--row">
             <div className='portfolio--card'>
-                <img src={me} alt="" />
+                <img src={odx} alt="" />
                 <p className='title'>Spartan Booking App</p>
                 <p> Web Technologies: Svelte.js</p>
                 <a className='view--BTN' href="odx.vercel.app" target='_blank' > View Live Project
