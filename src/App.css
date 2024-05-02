@@ -129,20 +129,50 @@
   flex-direction: column;
   justify-content: center;  
   width: 100%;
-  gap: 8px;
+  gap: 16px;
   padding: 20px;
   border-radius: 22px;
-  background-color: #000;
+  border: 1px solid #c6c6c6;
+}
+.svg--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  border: 0.5px solid #c1cad6;
 }
 .service--name {
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 16px;
 }
-.service--title {
+.service--app {
+  text-decoration: underline;
+  text-decoration-color: #F5525B;
+  text-decoration-thickness: 6px;
+  text-underline-offset: -3px;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
   font-size: larger;
   font-weight: 600;
 }
-
+.service--web {
+  text-decoration: underline;
+  text-decoration-color: #5093e2;
+  text-decoration-thickness: 6px;
+  text-underline-offset: -3px;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  font-size: larger;
+  font-weight: 600;
+}
+.card--content {
+  line-height: 154%;
+}
 /* RESENT WORK CSS */
 .portfolio--container {
   display: flex;
@@ -171,7 +201,7 @@
   width: 398px;
   padding: 20px;
   border-radius: 22px;
-  background-color: #000;
+  border: 1px solid #fafafa;
 }
 .portfolio--card > img {
   border-radius: 12px;
@@ -192,7 +222,7 @@
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  color: #dcdcdc;
+  color: #102010;
   background-color: #4BCCA5;
 }
 

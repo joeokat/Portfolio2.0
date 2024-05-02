@@ -1,6 +1,6 @@
 import React from 'react'
 import web from "../assets/web.svg"
-import me from "../assets/me.jpg";
+import cv from "../assets/cv.jpg";
 import odx from "../assets/odx.png";
 
 export const Portfolio = () => {
@@ -19,8 +19,8 @@ export const Portfolio = () => {
             </div>
 
             <div className='portfolio--card'>
-                <img src={me} alt="" />
-                <p className='title'>Portfolio Website 2.0</p>
+                <img src={cv} alt="" />
+                <p className='title'>Portfolio Web App 2.0</p>
                 <p> Web Technologies: HTML + CSS</p>
                 <a className='view--BTN' href="#"> View Live Project
                 <img src={web} alt="" />
