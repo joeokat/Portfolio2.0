@@ -14,7 +14,7 @@ export default function App() {
       <Services />
       <Portfolio />
       {/* <Info /> */}
-      {/* <SpartanAds /> */}
+      <SpartanAds />
       <Socials />
     </div>
   );

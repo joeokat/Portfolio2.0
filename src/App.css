@@ -108,10 +108,12 @@
 .service--container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   margin-top: 32px;
   max-width: 640px;
+  gap: 16px;
 }
 .service--container > h2 {
   display: flex;
@@ -120,14 +122,13 @@
 }
 .service--row {
   display: flex;
-  flex-direction: row;
   gap: 16px;
 }
 .service--card {
   display: flex;
   flex-direction: column;
   justify-content: center;  
-  width: 398px;
+  width: 100%;
   gap: 8px;
   padding: 20px;
   border-radius: 22px;
@@ -146,10 +147,12 @@
 .portfolio--container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  max-width: 640px;
   margin: 0 auto;
   margin: 32px 0;
-  max-width: 640px;
+  gap: 16px;
 }
 .portfolio--container > h2 {
   display: flex;
@@ -158,7 +161,7 @@
 }
 .portfolio--row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 16px;
 }
 .portfolio--card {
