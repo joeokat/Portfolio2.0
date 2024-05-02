@@ -3,8 +3,8 @@
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   margin-left: 5px;
   margin-top: 6px;
 }
@@ -31,19 +31,37 @@
   margin-top: -18px;
   display: flex;
   justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
-  color: bisque;
+  font-size: 18px;
+  font-weight: 700;
+  color: #c1cad6;
 }
 
-.web--link {
+.hero--section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  color: #dcdcdc;
+  margin: 0 auto;
+  max-width: 640px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.app--underline {
+  text-decoration-color: #5093e2;
+  text-decoration-thickness: 8px;
+  text-underline-offset: -5px;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+}
+.web--underline {
+  text-decoration-color: #F5525B;
+  text-decoration-thickness: 8px;
+  text-underline-offset: -5px;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
 }
 
 .cta-btn {
@@ -59,7 +77,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  width: 115px;
+  width: 150px;
   height: 34px;
   border-radius: 6px;
   padding: 8px 14px;
@@ -76,7 +94,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  width: 115px;
+  width: 150px;
   height: 34px;
   border-radius: 6px;
   padding: 8px 14px;
@@ -85,6 +103,94 @@
   color: #ffffff;
   background: #5093e2;
   text-decoration: none;
+}
+/* SERVICES CSS */
+.service--container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  margin-top: 32px;
+  max-width: 640px;
+}
+.service--container > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service--row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.service--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  width: 398px;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 22px;
+  background-color: #000;
+}
+.service--name {
+  display: flex;
+  gap: 8px;
+}
+.service--title {
+  font-size: larger;
+  font-weight: 600;
+}
+
+/* RESENT WORK CSS */
+.portfolio--container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 auto;
+  margin: 32px 0;
+  max-width: 640px;
+}
+.portfolio--container > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio--row {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.portfolio--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 398px;
+  padding: 20px;
+  border-radius: 22px;
+  background-color: #000;
+}
+.portfolio--card > img {
+  border-radius: 12px;
+}
+.portfolio--card > .title {
+  margin: 16px 0 0 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.view--BTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 40px;
+  width: 100%;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #dcdcdc;
+  background-color: #4BCCA5;
 }
 
 .info--container {
@@ -113,6 +219,8 @@
   display: flex;
   flex-direction: column;  
   justify-content: center;
+  margin: 0 auto;
+  max-width: 640px;
   margin-top: 15px;
   margin-bottom: 10px;
   padding: 1.5rem;

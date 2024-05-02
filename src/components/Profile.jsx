@@ -3,34 +3,29 @@ import me from "../assets/me.jpg";
 import email from "../assets/email.svg";
 import linkedin from "../assets/linkedin.svg";
 import verified from "../assets/verified.png";
-import web from "../assets/web.svg";
 
 export default function Profile() {
   return (
     <div className="wrapper">
-      <img className="profile--image" src={me} alt="Joshua" />
+      <img className="profile--image" src={me} alt="JoeOkat" />
       <div>
         <h4 className="full--name">
           Joshua Ofosu Okata
           <img src={verified} alt="" className="icon" />
         </h4>
 
-        <p className="job--title">Software Designer | UX Engineer</p>
-        <a
-          className="web--link"
-          href="https://behance.net/joeokat"
-          rel="noreferrer"
-          target="_blank"
-        >
-          My Portfolio
-          <img src={web} alt="" className="icon" />
-        </a>
+        <p className="job--title">UI Designer | UX Engineer</p>
+        
       </div>
+
+      <p className="hero--section">I create custom 
+      <u className="app--underline">Mobile Apps</u> and 
+      <u className="web--underline">Websites</u> that promotes Business Growth</p>
 
       <div className="cta-btn">
         <a className="email--btn" href="mailto:ofosujoshua73@yahoo.com">
           <img src={email} alt="" />
-          Email
+          Start a project
         </a>
         <a
           className="linkedin--btn"
@@ -39,7 +34,7 @@ export default function Profile() {
           rel="noreferrer"
         >
           <img src={linkedin} alt="" />
-          LinkedIn
+          See my work
         </a>
       </div>
     </div>
