@@ -1,11 +1,11 @@
 import React from "react";
-import Profile from "./components/Profile.jsx";
-import Info from "./components/Info.jsx";
-import Socials from "./components/Socials.jsx";
 import "./App.css";
-import { SpartanAds } from "./components/SpartanAds.jsx";
+import Profile from "./components/Profile.jsx";
 import { Services } from "./components/Services.jsx";
-import { Portfolio } from "./components/Portfolio.jsx";
+// import Info from "./components/Info.jsx";
+// import { SpartanAds } from "./components/SpartanAds.jsx";
+// import { Portfolio } from "./components/Portfolio.jsx";
+import Socials from "./components/Socials.jsx";
 
 export default function App() {
   return (

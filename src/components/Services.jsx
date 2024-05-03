@@ -14,7 +14,7 @@ export const Services = () => {
                     <div className='service--app'>App UI Design</div>
                 </div>
         
-            <div className='card--content'>I design visually pleasing web applications that prioritize user engagement and brand consistency.</div>
+            <div className='card--content'>I design visually pleasing web applications that prioritize user engagement and brand consistency</div>
         </div>
 
         <div className='service--card'>
@@ -23,7 +23,7 @@ export const Services = () => {
                     <div className='service--web'> Web UX Engineer</div>
                 </div>
         
-            <div className='card--content'>I develop high-performing websites by translating prototyped UI Designs into clean HTML & CSS code.</div>
+            <div className='card--content'>I develop high-performing websites by translating prototyped UI Designs into clean HTML~CSS code</div>
         </div>
         </div>
     </div>
