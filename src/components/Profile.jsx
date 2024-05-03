@@ -19,8 +19,8 @@ export default function Profile() {
       </div>
 
       <p className="hero--section">I create custom 
-      <u className="app--underline">Mobile Apps</u> and 
-      <u className="web--underline">Websites</u> that promotes Business Growth</p>
+         Mobile Apps and Websites that promotes Business Growth
+      </p>
 
       <div className="cta-btn">
         <a className="email--btn" href="mailto:ofosujoshua73@yahoo.com">

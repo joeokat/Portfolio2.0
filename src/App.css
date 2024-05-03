@@ -1,4 +1,8 @@
 .wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
  background: #1a1b21;
 }
 
@@ -37,28 +41,30 @@
 }
 
 .hero--section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  text-align: center;
   margin: 0 auto;
   max-width: 640px;
   font-size: 2rem;
   font-weight: bold;
 }
-
 .app--underline {
+  text-decoration: underline;
   text-decoration-color: #5093e2;
   text-decoration-thickness: 8px;
-  text-underline-offset: -5px;
+  text-underline-offset: -4px;
   text-decoration-skip-ink: none;
   -webkit-text-decoration-style: solid;
   text-decoration-style: solid;
 }
 .web--underline {
+  text-decoration: underline;
   text-decoration-color: #F5525B;
   text-decoration-thickness: 8px;
-  text-underline-offset: -5px;
+  text-underline-offset: -4px;
   text-decoration-skip-ink: none;
   -webkit-text-decoration-style: solid;
   text-decoration-style: solid;

@@ -12,9 +12,9 @@ export default function App() {
     <div className="App">
       <Profile />
       <Services />
-      <Portfolio />
+      {/* <Portfolio /> */}
       {/* <Info /> */}
-      <SpartanAds />
+      {/* <SpartanAds /> */}
       <Socials />
     </div>
   );
