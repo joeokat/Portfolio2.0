@@ -5,6 +5,7 @@ import { Services } from "./components/Services.jsx";
 import Nav from "./components/Nav.jsx";
 
 import Socials from "./components/Socials.jsx";
+import { SpartanAds } from "./components/SpartanAds.jsx";
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <Nav />
       <Profile />
       <Services />
-      
+      <SpartanAds />
       <Socials />
     </div>
   );
