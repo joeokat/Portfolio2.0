@@ -11,7 +11,7 @@ export const Portfolio = () => {
         <div className="portfolio--row">
             <div className='portfolio--card'>
                 <img src={odx} alt="" />
-                <p className='title'>Spartan Booking App</p>
+                <p className='title'>Soccer Tips App</p>
                 <p> Web Technologies: Svelte.js</p>
                 <a className='view--BTN' href="https://odx.vercel.app" target='_blank' rel='noreferrer'> View Live Project
                 <img src={web} alt="" />
@@ -20,7 +20,7 @@ export const Portfolio = () => {
 
             <div className='portfolio--card'>
                 <img src={cv} alt="" />
-                <p className='title'>Portfolio Web App 2.0</p>
+                <p className='title'>Portfolio Website 2.0</p>
                 <p> Web Technologies: HTML + CSS</p>
                 <a className='view--BTN' href="https://joshuaofosu.vercel.app/" target='_blank' rel='noreferrer'> View Live Project
                 <img src={web} alt="" />
