@@ -3,42 +3,49 @@
   align-items: center;
   justify-content: center;
   flex-direction: column; */
- background: #1a1b21;
+  background: #1a1b21;
 }
-  .nav--container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 120px;
-    background-color: var(--shadow);
-    flex-direction: row-reverse;
-  }
-  .github {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin: 0;
-  }
-  .github a {
-    display: flex;
-    gap: 8px;
-  }
-  .copyright {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    margin: 0;
-  }
-  .cheveron {
-    display: flex;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    margin-left: 16px;
-    background-color: var(--accent);
-  }
+
+/* NAV SECTION CSS */
+.nav--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 120px;
+  color: #dcdcdc;
+  background-color: #161619;
+  flex-direction: row-reverse;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sora', Poppins, ;
+}
+
+small {
+  font-family: monospace;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.github a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #c6c6c6;
+  margin-top: 0;
+}
+
+/* PROFILE SECTION CSS */
 .icon {
   width: 22px;
   height: 22px;
@@ -80,6 +87,7 @@
   font-size: 2rem;
   font-weight: bold;
 }
+
 .cta-btn {
   display: flex;
   justify-content: center;
@@ -120,6 +128,7 @@
   background: #5093e2;
   text-decoration: none;
 }
+
 /* SERVICES CSS */
 .service--container {
   display: flex;
@@ -131,30 +140,36 @@
   max-width: 640px;
   gap: 16px;
 }
-.service--container > h2 {
+
+.service--container>h2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .service--row {
   display: flex;
   gap: 16px;
 }
+
 .service--card {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   width: 100%;
   gap: 16px;
   padding: 20px;
   border-radius: 22px;
-  border: 1px solid #c6c6c6;
+  border: 1px solid #dcdcdc;
+  background-color: #161619;
 }
+
 .service--name {
   display: flex;
   align-items: center;
   gap: 16px;
 }
+
 .svg--icon {
   display: flex;
   justify-content: center;
@@ -164,6 +179,7 @@
   border-radius: 14px;
   border: 0.5px solid #c1cad6;
 }
+
 .service--app {
   text-decoration: underline;
   text-decoration-color: #F5525B;
@@ -175,6 +191,7 @@
   font-size: larger;
   font-weight: 600;
 }
+
 .service--web {
   text-decoration: underline;
   text-decoration-color: #5093e2;
@@ -186,52 +203,62 @@
   font-size: larger;
   font-weight: 600;
 }
+
 .card--content {
   line-height: 154%;
 }
-/* RESENT WORK CSS */
+
+/* RECENT WORK CSS */
 .portfolio--container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 32px 0;
+  /* max-width: 640px; */
   gap: 16px;
 }
+
 .recent--work {
   display: flex;
   align-self: center;
   justify-content: center;
   /* align-items: center; */
 }
+
 .portfolio--row {
   display: flex;
   gap: 16px;
 }
+
 .portfolio--card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 398px;
+  width: 312px;
   padding: 20px;
   border-radius: 22px;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #dcdcdc;
+  background-color: #161619;
 }
+
 .portfolio--card img {
   border-radius: 12px;
 }
-.portfolio--card > .title {
+
+.portfolio--card>.title {
   margin: 16px 0 0 0;
   font-size: 24px;
   font-weight: 600;
 }
+
 .view--BTN {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   height: 40px;
-  width: 100%;
+  /* width: 100%; */
   border-radius: 100px;
   font-size: 16px;
   font-weight: 600;
@@ -240,29 +267,31 @@
   background: #f5f5f5;
 }
 
-
+/* ADS SECTION CSS */
 .card {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   max-width: 640px;
   margin-top: 15px;
   margin-bottom: 10px;
   padding: 1.5rem;
-  border-radius: 20px; 
+  border-radius: 20px;
   background: var(--Linear-2, linear-gradient(-120deg, rgba(157, 77, 82, 0.37) -24.31%, #10192c 48.11%));
   position: relative;
 }
 
 .card h2 {
-    margin: 0;
-    font-size: 32px;
+  margin: 0;
+  font-size: 32px;
 }
-.card p{
+
+.card p {
   font-size: 16px;
   color: #dcdcdc;
 }
+
 .b--ads {
   position: absolute;
   top: 0;
@@ -273,7 +302,7 @@
   color: #fafafa;
   padding: 2px 18px;
   background-color: #5093e2;
-  border-radius: 0 20px 0 20px; 
+  border-radius: 0 20px 0 20px;
 }
 
 span {
@@ -301,6 +330,7 @@ span {
   text-decoration: none;
 }
 
+/* FOOTER SECTION CSS */
 .footer--container {
   height: 64px;
   border-radius: 0px 0px 10px 10px;
@@ -316,6 +346,10 @@ span {
 
 /* MOBILE RESPONSIVE VIEW */
 @media only screen and (max-width: 600px) {
+  .nav--container {
+    padding: 0 24px;
+  }
+
   .cta-btn {
     display: flex;
     flex-direction: row-reverse;
@@ -323,17 +357,21 @@ span {
     gap: 8px;
     margin-top: 32px;
   }
+
   .hero--section {
     padding: 0 15px;
     width: 100%;
   }
+
   .service--container {
     padding: 0 15px;
   }
+
   .service--row {
     display: flex;
     flex-direction: column;
   }
+
   .service--name {
     display: flex;
     flex-direction: column;
@@ -344,8 +382,13 @@ span {
     /* width: 100%; */
     padding: 0 15px;
   }
+
   .portfolio--row {
     display: flex;
     flex-direction: column;
   }
+
+  /* .portfolio--card {
+    width: 100%;
+  } */
 }
