@@ -22,7 +22,7 @@ export const Portfolio = () => {
                 <img src={cv} alt="" />
                 <p className='title'>Portfolio Web App 2.0</p>
                 <p> Web Technologies: HTML + CSS</p>
-                <a className='view--BTN' href="https://threads.net/fleetlabsgh" target='_blank' rel='noreferrer'> View Live Project
+                <a className='view--BTN' href="https://joshuaofosu.vercel.app/" target='_blank' rel='noreferrer'> View Live Project
                 <img src={web} alt="" />
                 </a>
             </div>
