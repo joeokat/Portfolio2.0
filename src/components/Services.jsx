@@ -23,7 +23,7 @@ export const Services = () => {
                     <div className='service--web'> Web UX Engineer</div>
                 </div>
         
-            <div className='card--content'>I develop high-performing websites by translating prototyped UI Designs into clean HTML~CSS code</div>
+            <div className='card--content'>I develop high-performing web applications by converting high-fidelity UI Designs into clean HTML~CSS code</div>
         </div>
         </div>
     </div>
