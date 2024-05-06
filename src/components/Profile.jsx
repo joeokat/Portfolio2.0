@@ -10,7 +10,7 @@ export default function Profile() {
       <img className="profile--image" src={me} alt="JoeOkat" />
       <div>
         <h4 className="full--name">
-          Joshua Ofosu Okata
+          Joshua Ofosu
           <img src={verified} alt="" className="icon" />
         </h4>
 
@@ -19,7 +19,7 @@ export default function Profile() {
       </div>
 
       <p className="hero--section">I create custom 
-         Mobile Apps and Websites that promotes Business Growth
+         <span>Mobile Apps</span> and <span>Websites</span> that promotes Business Growth
       </p>
 
       <div className="cta-btn">
