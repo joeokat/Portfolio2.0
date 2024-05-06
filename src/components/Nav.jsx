@@ -6,10 +6,10 @@ export default function Nav() {
   return (
     <div className="nav--container">
         <div class="github">
-          <a href="https://github.com/joeokat/JoeOkat.me" target="_blank" rel="noreferrer">
+          <a href="https://github.com/joeokat/BusinessCard" target="_blank" rel="noreferrer">
             <img src={star} alt=""/> Star
           </a>
-          <a href="https://github.com/joeokat/JoeOkat.me" target="_blank" rel="noreferrer">
+          <a href="https://github.com/joeokat/BusinessCard" target="_blank" rel="noreferrer">
             <img src={fork} alt=""/> Fork
           </a>
         </div>
