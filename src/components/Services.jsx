@@ -20,7 +20,7 @@ export const Services = () => {
         <div className='service--card'>
                 <div className='service--name'>
                     <div className='svg--icon'><img src={code} alt="" /></div>
-                    <div className='service--web'> UI/UX Engineer</div>
+                    <div className='service--web'> PWA Engineer</div>
                 </div>
         
             <div className='card--content'>I develop high-performing web apps by converting Figma UI Designs into clean HTML and CSS code</div>

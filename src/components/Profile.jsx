@@ -21,6 +21,7 @@ export default function Profile() {
       <p className="hero--section">I create custom 
          Mobile Apps and Websites that promotes <span>Business Growth</span>
       </p>
+      <p className="work--paragraph">Ready to embark on your next project? Feel free to connect with me.</p>
 
       <div className="cta-btn">
         <a className="email--btn" href="mailto:ofosujoshua73@yahoo.com">
