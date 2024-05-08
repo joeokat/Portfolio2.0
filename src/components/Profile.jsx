@@ -19,7 +19,7 @@ export default function Profile() {
       </div>
 
       <p className="hero--section">I create custom 
-         Mobile Apps and Websites that promotes Business Growth
+         Mobile Apps and Websites that promotes <span>Business Growth</span>
       </p>
 
       <div className="cta-btn">
