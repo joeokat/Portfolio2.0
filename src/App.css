@@ -388,7 +388,8 @@ span {
     flex-direction: column;
   }
 
-  /* .portfolio--card {
-    
-  } */
+  .card {
+    padding: 0 15px;
+    width: 100%;
+  }
 }
