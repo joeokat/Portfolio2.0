@@ -11,7 +11,7 @@ export const Services = () => {
         <div className='service--card'>
                 <div className='service--name'>
                     <div className='svg--icon'><img src={phone} alt="" /></div>
-                    <div className='service--app'>App UI Design</div>
+                    <div className='service--app'>Product Designer</div>
                 </div>
         
             <div className='card--content'>I design visually pleasing web applications that prioritize user engagement and brand consistency</div>
@@ -20,10 +20,10 @@ export const Services = () => {
         <div className='service--card'>
                 <div className='service--name'>
                     <div className='svg--icon'><img src={code} alt="" /></div>
-                    <div className='service--web'> Web UX Engineer</div>
+                    <div className='service--web'> UI/UX Engineer</div>
                 </div>
         
-            <div className='card--content'>I develop high-performing web applications by converting high-fidelity UI Designs into clean HTML~CSS code</div>
+            <div className='card--content'>I develop high-performing web apps by converting Figma UI Designs into clean HTML and CSS code</div>
         </div>
         </div>
     </div>
