@@ -389,7 +389,7 @@ span {
   }
 
   .card {
-    padding: 0 15px;
-    width: 100%;
+    margin: 1rem;
+    /* width: 100%; */
   }
 }
