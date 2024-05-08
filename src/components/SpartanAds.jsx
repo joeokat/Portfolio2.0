@@ -8,7 +8,7 @@ export const SpartanAds = () => {
          <h2>BYOI E-Learning</h2>
         <p>Access concise and beginner friendly mobile App Development courses with practical projects, professional certification, internships and mentorship support.</p>
 
-        <a className="join--button" href="https://t.me/+oCeVAiPJM482NjI0" rel="noreferrer" target="_blank">Enroll Now, only ¢240/mo</a>
+        <a className="join--button" href="https://t.me/+oCeVAiPJM482NjI0" rel="noreferrer" target="_blank">Only ¢240/mo, Enroll Now</a>
     </div>
   )
 }
