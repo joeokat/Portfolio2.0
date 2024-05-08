@@ -5,10 +5,10 @@ export const SpartanAds = () => {
   return (
     <div className="card">
         <div className="b--ads">Spartan Ads</div>
-         <h2>Go from Zero to Booossu!</h2>
-        <p>Develop skills you can apply right away, with curated e-learning courses designed by <span>BYOI</span> experts. <br /> Learn at your own pace and get certified.</p>
+         <h2>BYOI E-Learning</h2>
+        <p>I share basic tips to build Web Applications with HTML and CSS in 6 just weeks.</p>
 
-        <a className="join--button" href="https://t.me/+oCeVAiPJM482NjI0" rel="noreferrer" target="_blank">Join the Course Waitlist<img src={message} alt="" className="icon" /></a>
+        <a className="join--button" href="https://t.me/+oCeVAiPJM482NjI0" rel="noreferrer" target="_blank">Join the Waitlist<img src={message} alt="" className="icon" /></a>
     </div>
   )
 }
