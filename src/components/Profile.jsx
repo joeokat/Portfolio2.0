@@ -34,7 +34,7 @@ export default function Profile() {
           rel="noreferrer"
         >
           <img src={linkedin} alt="" />
-          See my work
+          Let's Connect
         </a>
       </div>
     </div>
