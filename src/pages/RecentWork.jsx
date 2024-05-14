@@ -1,7 +1,5 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Socials from '../components/Socials'
-import { Portfolio } from '../components/Portfolio'
+import { Nav, Portfolio, Socials, } from "../../components";
 
 export const RecentWork = () => {
   return (

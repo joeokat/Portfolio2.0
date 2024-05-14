@@ -1,7 +1,5 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Socials from '../components/Socials'
-import { PricingPlans } from '../components/PricingPlans'
+import { Nav, PricingPlans, Socials, } from "../../components";
 
 export const PricingPlan = () => {
   return (

@@ -1,0 +1,27 @@
+import React from "react";
+import {createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Home, RecentWork, PricingPlan } from "./pages";
+import "./App.css";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/recentwork",
+    element: <RecentWork />,
+  },
+  {
+    path: "/pricingplan",
+    element: <PricingPlan />,
+  }
+]);
+export default function App() {
+  return (
+    <div>
+      <RouterProvider router={router} />
+    </div>     
+  );
+}
