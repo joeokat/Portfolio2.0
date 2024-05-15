@@ -5,6 +5,10 @@
   flex-direction: column; */
   background: #1a1b21;
 }
+.center {
+  display: grid;
+  place-items: center;
+}
 
 /* NAV SECTION CSS */
 .nav--container {
