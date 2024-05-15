@@ -1,6 +1,10 @@
 import React from "react";
 import {createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Home, RecentWork, PricingPlan } from "./pages";
+//import { Home, RecentWork, PricingPlan } from './pages';
+import Home from "./pages/Home";
+import {RecentWork} from "./pages/RecentWork";
+import {PricingPlan} from "./pages/PricingPlan";
+
 import "./App.css";
 
 
