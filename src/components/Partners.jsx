@@ -16,7 +16,7 @@ export const Partners = () => {
                 <img src={linkedin} alt=''/>
             </div>
         </div> */}
-        <p>Loading...</p>
+        <p>⚠️ Loading...</p>
     </div>
   )
 }
