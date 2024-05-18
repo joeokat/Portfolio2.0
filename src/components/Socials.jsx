@@ -1,26 +1,28 @@
 import React from "react";
-import twitter from "../assets/twitter.svg";
+import home from "../assets/home.svg";
 import figma from "../assets/figma.svg";
 import github from "../assets/github.svg";
-import instagram from "../assets/instagram.svg";
+import threads from "../assets/threads.svg";
 import whatsapp from "../assets/whatsapp.svg";
+import { Link } from "react-router-dom";
 
 export default function Socials() {
   return (
     <div className="footer--container">
       <footer className="social--links">
-        <a href="https://wa.me/2330509994874" target="_blank" rel="noreferrer">
-          <img src={whatsapp} alt="" />
-        </a>
+        
+        <Link to="/" rel="noreferrer">
+          <img src={home} alt="" />
+        </Link>
         <a
           href="https://instagram.com/joeokatofficial"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="" />
+          <img src={threads} alt="" />
         </a>
-        <a href="https://twitter.com/joeokat" target="_blank" rel="noreferrer">
-          <img src={twitter} alt="" />
+        <a href="https://wa.me/2330509994874" target="_blank" rel="noreferrer">
+          <img src={whatsapp} alt="" />
         </a>
         <a href="https://figma.com/@joeokat" target="_blank" rel="noreferrer">
           <img src={figma} alt="" />
