@@ -6,7 +6,7 @@ import Socials from "../components/Socials";
 import { Services } from "../components/Services";
 import { Partners } from "../components/Partners";
 import { SpartanAds } from "../components/SpartanAds";
-import { Work } from "../components/Work";
+// import { Work } from "../components/Work";
 
 export default function App() {
   return (
@@ -14,8 +14,8 @@ export default function App() {
             <Nav />
             <Profile />
             <Services />
-            <Work />
             <Partners />
+            {/* <Work /> */}
             <SpartanAds />
             <Socials />    
         </>

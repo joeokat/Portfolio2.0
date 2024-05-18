@@ -278,56 +278,22 @@ small {
   margin: 0 auto;
   margin-top: 32px;
   max-width: 640px;
-}
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+  text-align: center;
 }
 
 .logos {
-  overflow: hidden;
-  padding: 30px 0;
-  white-space: nowrap;
+  padding: 0 24px;
+  margin-bottom: 32px;
   position: relative;
 }
 
-.logos:before,
-.logos:after {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.logos:before {
-  left: 0;
-  background: linear-gradient(to left, #ffffff00, #1a1b21);
-}
-
-.logos:after {
-  right: 0;
-  background: linear-gradient(to right, #ffffff00, #1a1b21);
-}
-
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-
 .logos-slide {
-  display: inline-block;
-  animation: 32s slide infinite linear;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  gap: 40px;
 }
 
-.logos-slide img {
-  height: 100px;
-  margin: 0 40px;
-}
 /* RECENT WORK CSS */
 .portfolio--container {
   display: flex;
