@@ -23,7 +23,7 @@ export const Services = () => {
                     <div className='service--web'> PWA Engineer</div>
                 </div>
         
-            <div className='card--content'>I develop high-performing web apps by converting Figma UI Designs into clean HTML and CSS code</div>
+            <div className='card--content'>I develop high-performing applications by converting Figma UI Designs into clean HTML and CSS code</div>
         </div>
         </div>
     </div>
