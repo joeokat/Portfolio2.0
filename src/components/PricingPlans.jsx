@@ -29,7 +29,7 @@ export const PricingPlans = () => {
           tag="Standard"
           tagClass="standard"
           title="Web Development"
-          service="Jumpstart your business growth with a landing page or a full website"
+          service="Take your business or service to the next level with a landing page or website"
           price="$75"
           features="Responsive Design, React.js Development, Simple Form Handling, Basic SEO Practices, API Integration"
         />
@@ -37,7 +37,7 @@ export const PricingPlans = () => {
           tag="Popular"
           tagClass="popular"
           title="UI/UX Design"
-          service="I will design a visually stunning web application that targets your ideal clients"
+          service="I'll craft a beautiful web application that resonates with your ideal clients and grows your business"
           price="$300"
           features="User Research, Lo-Fi Wireframes, Hi-Fi Mockup Design, Interactive Prototypes, Micro Animation, User Testing"
         />
@@ -45,7 +45,7 @@ export const PricingPlans = () => {
           tag="Best Value"
           tagClass="best-value"
           title="PWA Development"
-          service="Progressive Web App Development"
+          service="Reach new audience everywhere and drive global success"
           price="$116"
           features="Source File, Fast Load Time, Mobile App for publishing, App-like Experience, Add to Home Screen Functionality"
         />
