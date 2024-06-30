@@ -15,6 +15,7 @@ const PricingCard = ({ tag, tagClass, title, service, price, features }) => {
       <hr />
       <div>{featureList}</div>
       <button>Choose Plan</button>
+      {/* https://www.fiverr.com/joeokatgh */}
     </div>
   );
 };

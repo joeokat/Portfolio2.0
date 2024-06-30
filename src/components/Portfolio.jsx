@@ -46,14 +46,14 @@ const Portfolio = () => {
         <ProjectCard
           image={odx}
           title="Spartan Tips"
-          technologies="PWA: Svelte.js"
+          technologies="Web App: Svelte.js"
           liveLink="https://odx.vercel.app"
         />
         
         <ProjectCard
           image={cv}
           title="Portfolio Website 2.0"
-          technologies="PWA: HTML + CSS"
+          technologies="Frontend: HTML + CSS"
           liveLink="https://joshuaofosu.vercel.app/"
         />
       </div>
@@ -67,7 +67,7 @@ const ProjectCard = ({ image, title, technologies, liveLink }) => {
       <img src={image} alt={title} />
       <p className='title'>{title}</p>
       <p>{technologies}</p>
-      <a className='view--BTN' href={liveLink} target='_blank' rel='noreferrer'>
+      <a className='view--BTN' href={liveLink} rel='noreferrer'>
         View Live Project
         <img src={web} alt="web icon" />
       </a>

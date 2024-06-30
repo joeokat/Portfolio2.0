@@ -221,6 +221,7 @@ small {
   gap: 16px;
   margin: 0 auto;
   margin-top: 32px;
+  margin-bottom: 32px;
   max-width: 640px;
 }
 .mywork--container > img {
@@ -268,39 +269,13 @@ small {
   padding: 4px 24px;
 }
 
-/* PARTNERS SECTION CSS */
-.partner--container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin: 0 auto;
-  margin-top: 24px;
-  max-width: 640px;
-  text-align: center;
-}
-
-.logos {
-  padding: 0 24px;
-  margin-bottom: 32px;
-  position: relative;
-}
-
-.logos-slide {
-  display: flex;
-  justify-content: center;
-  height: 80px;
-  gap: 40px;
-}
-
 /* RECENT WORK CSS */
 .portfolio--container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 32px 0;
+  margin: 30px 0;
   max-width: 640px;
   gap: 16px;
 }
@@ -359,9 +334,7 @@ small {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 16px;
-  margin: 0 auto;
-  margin-top: 24px;
+  margin: 30px 0;
   max-width: 640px;
 }
 
@@ -432,14 +405,21 @@ button {
 
 
 /* ADS SECTION CSS */
+.card--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  max-width: 640px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
-  max-width: 640px;
-  margin-top: 15px;
-  margin-bottom: 10px;
   padding: 1.5rem;
   border-radius: 20px;
   background: var(--Linear-2, linear-gradient(-120deg, rgba(157, 77, 82, 0.37) -24.31%, #10192c 48.11%));
@@ -553,22 +533,37 @@ span {
   .portfolio--row {
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
   }
   .pricing--plans {
     padding: 0 15px;
+    margin-bottom: 30px;
   }
+
   .work--paragraph {
     text-align: center;
     padding: 0 1rem;
   }
 
-  .partner--container {
-    padding: 0 15px;
-    width: 100%;
+  .work--plan {
+    margin-bottom: 100px;
   }
 
-  .card {
-    margin: 1rem;
+  .card--container {
+    padding: 0 15px;
+    margin-bottom: 30px;
+    position: relative;
+    /* left: 15px; */
+    bottom: 80px;
     /* width: 100%; */
+  }
+
+  .footer--container {
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: #161619;
   }
 }
