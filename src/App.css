@@ -424,7 +424,7 @@ button {
   width: 100%;
   padding: 10px 20px;
   border: none;
-  border-radius: 100px;
+  border-radius: 8px;
   cursor: pointer;
   background-color: #f5f5f5;
   color: #161619;
