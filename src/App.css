@@ -404,12 +404,12 @@ small {
 }
 
 .popular .tag {
-  background-color: #00bcd4;
+  background-color: #5093e2;
 }
 
 .best-value .tag {
-  background-color: #ffeb3b;
-  color: #333;
+  background-color: #ffbb1c;
+  color: #101010;
 }
 
 .details--card hr {
@@ -424,7 +424,7 @@ button {
   width: 100%;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 100px;
   cursor: pointer;
   background-color: #f5f5f5;
   color: #161619;
