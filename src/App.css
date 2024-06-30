@@ -327,6 +327,24 @@ small {
   color: #161619;
   background: #f5f5f5;
 }
+.explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #161619;
+  background: #f5f5f5;
+}
+.explore:hover {
+  background: #161619;
+  color: #f5f5f5;
+}
 /* PRICING SECTION CSS */
 .pricing--container {
   display: flex;
@@ -533,8 +551,14 @@ span {
   .portfolio--row {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
+.explore {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
   .pricing--plans {
     padding: 0 15px;
     margin-bottom: 30px;

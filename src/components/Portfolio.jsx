@@ -40,7 +40,7 @@ import odx from "../assets/odx.png";
 const Portfolio = () => {
   return (
     <div className='portfolio--container'>
-      <h2 className='recent--work'>Recent Work</h2>
+      <h2 className='recent--work'>Recent Developments</h2>
         
       <div className="portfolio--row">
         <ProjectCard
@@ -57,6 +57,8 @@ const Portfolio = () => {
           liveLink="https://joshuaofosu.vercel.app/"
         />
       </div>
+      
+    <a className='explore' href="https://behance.net/joeokat" target='_blank' rel='noreferrer'>Explore More</a>
     </div>
   );
 }
