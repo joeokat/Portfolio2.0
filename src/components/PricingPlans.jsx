@@ -7,10 +7,7 @@ const PricingCard = ({ tag, tagClass, title, price, features }) => {
       <h3>{title}</h3>
       <p><strong>{price}</strong> /timeline</p>
       <hr />
-      <p>
-      
-        <strong>Features:</strong> {features}
-      </p>
+      <p> {features} <br /> </p>
       <button>Choose Plan</button>
     </div>
   );
