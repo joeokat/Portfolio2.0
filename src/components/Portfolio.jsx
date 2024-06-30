@@ -45,15 +45,15 @@ const Portfolio = () => {
       <div className="portfolio--row">
         <ProjectCard
           image={odx}
-          title="Soccer Tips App"
-          technologies="Web Technologies: Svelte.js"
+          title="Spartan Tips"
+          technologies="PWA: Svelte.js"
           liveLink="https://odx.vercel.app"
         />
         
         <ProjectCard
           image={cv}
           title="Portfolio Website 2.0"
-          technologies="Web Technologies: HTML + CSS"
+          technologies="PWA: HTML + CSS"
           liveLink="https://joshuaofosu.vercel.app/"
         />
       </div>

@@ -360,13 +360,12 @@ small {
   align-items: center;
   text-align: center;
   gap: 16px;
+  height: 100svh;
   margin: 0 auto;
   margin-top: 24px;
   max-width: 640px;
 }
-.fiverr-seller-widget {
-  margin-bottom: 100px;
-}
+
 
 /* ADS SECTION CSS */
 .card {

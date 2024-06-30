@@ -14,7 +14,7 @@ export default function Profile() {
           <img src={verified} alt="" className="icon" />
         </h4>
 
-        <p className="job--title">UI Designer | UX Engineer</p>
+        <p className="job--title">UI/UX Designer | Web App Developer</p>
         
       </div>
 
