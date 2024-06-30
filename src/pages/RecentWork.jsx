@@ -10,7 +10,6 @@ export const RecentWork = () => {
       <Nav />
         <div className="center">
           <Portfolio />
-          <Partners />
         </div>
       <Socials />
     </>
