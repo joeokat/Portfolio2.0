@@ -23,7 +23,7 @@ export const PricingPlans = () => {
   return (
     <div className='pricing--container'>
       <h2>Select a Plan</h2>
-      <p>You are in good hands, get value for your order.</p>
+      
       <div className='pricing--plans'>
         <PricingCard
           tag="Standard"

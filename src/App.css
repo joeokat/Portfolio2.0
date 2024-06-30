@@ -377,7 +377,7 @@ small {
   position: relative;
   text-align: left;
   padding: 20px;
-  width: 300px;
+  width: 100%;
   margin-bottom: 20px;
   border-radius: 20px;
   border: 1px solid #dcdcdc;
@@ -554,7 +554,9 @@ span {
     display: flex;
     flex-direction: column;
   }
-
+  .pricing--plans {
+    padding: 0 15px;
+  }
   .work--paragraph {
     text-align: center;
     padding: 0 1rem;
