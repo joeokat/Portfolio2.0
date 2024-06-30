@@ -1,6 +1,8 @@
-# This is my digital business card
+# This is my Freelance Portfolio
 
-Expert in Professional IT Services with a keen interest in building UIs with Figma and React.
+A professional UIUX Designer and a PWA Developer, Helping businesses & individuals achieve their goals and exceeding their expectations through Product Design and Development.
+
+Expert in Professional IT Services with a keen interest in building UIs with Figma and HTML/CSS.
 
 I try to keep up with best design practices, and always looking for new things to learn. I am available for any kind of job opportunity that suits my current skills.
 
