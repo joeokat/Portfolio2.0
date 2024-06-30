@@ -374,15 +374,15 @@ small {
 }
 
 .details--card {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: relative;
   text-align: left;
-  background-color: #fff;
+  padding: 20px;
+  width: 300px;
   margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  background-color: #161619;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .details--card h3 {
@@ -393,8 +393,6 @@ small {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #555;
-  color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 0.8em;
