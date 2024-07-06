@@ -440,11 +440,12 @@ button {
 }
 
 .card h2 {
-  margin-bottom: 0;
+  margin-bottom: -8px;
   font-size: 1.5rem;
 }
 
 .card p {
+  line-height: 24px;
   font-size: 16px;
   color: #dcdcdc;
 }
