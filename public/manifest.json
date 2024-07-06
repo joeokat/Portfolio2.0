@@ -1,6 +1,14 @@
 {
-  "short_name": "Dev JoeOkat",
-  "name": "Dev JoeOkat",
+  "name": "UI/UX JoeOkat",
+  "short_name": "UI/UX JoeOkat",
+  "appid": "app.vercel.joeokat",
+  "description": "🎯 I help businesses target ideal customers to drive sales.",
+  "categories": [ "productivity", "education", "Social", "news" ],
+  "lang": "en",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#212121",
+  "background_color": "#161619",
   "icons": [
     {
       "src": "favicon.ico",
@@ -17,9 +25,6 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#DC2134",
-  "background_color": "#161619"
+  ]
+  
 }
