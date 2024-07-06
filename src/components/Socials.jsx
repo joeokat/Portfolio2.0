@@ -15,7 +15,7 @@ export default function Socials() {
           <img src={home} alt="" />
         </Link>
         <a
-          href="https://instagram.com/joeokatofficial"
+          href="https://www.threads.net/@joeokatofficial"
           target="_blank"
           rel="noreferrer"
         >
@@ -24,7 +24,7 @@ export default function Socials() {
         <a href="https://wa.me/2330509994874" target="_blank" rel="noreferrer">
           <img src={whatsapp} alt="" />
         </a>
-        <a href="https://figma.com/@joeokat" target="_blank" rel="noreferrer">
+        <a href="https://figma.com/@joeokat">
           <img src={figma} alt="" />
         </a>
         <a href="https://github.com/joeokat" target="_blank" rel="noreferrer">

@@ -11,7 +11,7 @@ export const Services = () => {
         <div className='service--card'>
                 <div className='service--name'>
                     <div className='svg--icon'><img src={phone} alt="" /></div>
-                    <div className='service--app'>Product Designer</div>
+                    <div className='service--app'>UX Designer</div>
                 </div>
         
             <div className='card--content'>I design visually pleasing web applications that prioritize user engagement and brand consistency</div>
