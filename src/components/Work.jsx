@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom'
 export const Work = () => {
   return (
     <div className='mywork--container'>
-      <h2>Why Hire Me</h2>
-      {/* <img src={PhoneMockup} alt="UI" /> */}
+      <h2 className='hire--me'>🎯 Why Hire Me</h2>
       <p className='work--paragraph'>
-        🎯 I help businesses ship MVPs to market fast. I will design and develop a progressive web application for your business to reach 28k+ of the global marketplace. 
-        I'm a User-Centric UI Designer specialized in designing and developing intuitive interfaces based on primary insights and informed decisions by critique stakeholders.
+        I design and develop (PWA) Progressive Web Apps for businesses 
+        that ships to market fast, reaching 28k+ users of the global marketplace. 
       </p>
         <div className='work--plan'>
           <Link to='/RecentWork' className="see--mywork">See My Work</Link>

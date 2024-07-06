@@ -224,11 +224,6 @@ small {
   margin-bottom: 32px;
   max-width: 640px;
 }
-.mywork--container > img {
-  width: 60%;
-  margin-left: -24px;
-  margin-bottom: -14px;
-}
 .work--paragraph {
   text-align: center;
   margin: 0 auto;
@@ -467,8 +462,8 @@ button {
   border-radius: 0 20px 0 20px;
 }
 
-.b--ads h2 {
-  margin-top: 12px;
+.b--ads > h2 {
+  margin-top: 24px;
 }
 
 span {
@@ -566,6 +561,10 @@ span {
   .pricing--plans {
     padding: 0 15px;
     margin-bottom: 30px;
+  }
+
+  .hire--me{
+    margin-bottom: 0px;
   }
 
   .work--paragraph {

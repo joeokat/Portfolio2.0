@@ -14,16 +14,16 @@ export const Services = () => {
                     <div className='service--app'>UX Designer</div>
                 </div>
         
-            <div className='card--content'>I design visually pleasing web applications that prioritize user engagement and brand consistency</div>
+            <div className='card--content'>I design visually pleasing web applications that prioritize users engagement and brand consistency.</div>
         </div>
 
         <div className='service--card'>
                 <div className='service--name'>
                     <div className='svg--icon'><img src={code} alt="" /></div>
-                    <div className='service--web'> PWA Developer</div>
+                    <div className='service--web'> Web App Developer</div>
                 </div>
         
-            <div className='card--content'>I develop high-performing applications by converting Figma UI Designs into clean HTML and CSS code</div>
+            <div className='card--content'>I develop high-performing applications, converting Figma UI Designs into clean HTML and CSS codes.</div>
         </div>
         </div>
     </div>
