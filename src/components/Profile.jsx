@@ -14,12 +14,11 @@ export default function Profile() {
           <img src={verified} alt="" className="icon" />
         </h4>
 
-        <p className="job--title">UI/UX Designer | Web App Developer</p>
+        <p className="job--title">User Interface Engineer</p>
         
       </div>
 
-      <p className="hero--section">I create custom 
-         Mobile Apps and Websites that promotes <span>Business Growth</span>
+      <p className="hero--section">I craft mobile apps and lightning-fast websites that drive <span>business growth</span>
       </p>
       <p className="work--paragraph">Ready to embark on your next project? Feel free to connect with me.</p>
 

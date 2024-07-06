@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 export const Work = () => {
   return (
     <div className='mywork--container'>
-      <h2 className='hire--me'>🎯 Why Hire Me</h2>
+      <h2 className='hire--me'>🎯 Why Choose Me</h2>
       <p className='work--paragraph'>
-        I design and develop (PWA) Progressive Web Apps for businesses 
-        that ships to market fast, reaching 28k+ users of the global marketplace. 
+      I design and develop lightning-fast Progressive Web Apps that reach 
+      thousands of users, helping businesses thrive in the global marketplace. 
       </p>
         <div className='work--plan'>
           <Link to='/RecentWork' className="see--mywork">See My Work</Link>

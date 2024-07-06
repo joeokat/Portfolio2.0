@@ -440,7 +440,7 @@ button {
 }
 
 .card h2 {
-  margin: 0;
+  margin-bottom: 0;
   font-size: 1.5rem;
 }
 
@@ -460,10 +460,6 @@ button {
   padding: 12px 18px;
   background-color: #fafafa;
   border-radius: 0 20px 0 20px;
-}
-
-.b--ads > h2 {
-  margin-top: 24px;
 }
 
 span {
