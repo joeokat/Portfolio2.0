@@ -5,7 +5,7 @@ export const SpartanAds = () => {
   return (
     <div className="card--container">
       <div className="card">
-        <div className="b--ads">Spartan Ads</div>
+        <div className="b--ads"> Ads by Fleet Labs GH </div>
          <h2> Learn to Build Web Apps </h2>
         <p> 
           Three of my students made ¢2,500 each last month by publishing a simple web application
