@@ -7,8 +7,10 @@
   "lang": "en",
   "start_url": ".",
   "display": "standalone",
+  "orientation": "portrait",
   "theme_color": "#212121",
   "background_color": "#161619",
+  
   "icons": [
     {
       "src": "favicon.ico",
