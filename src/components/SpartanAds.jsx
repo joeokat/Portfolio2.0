@@ -7,10 +7,13 @@ export const SpartanAds = () => {
       <div className="card">
         <div className="b--ads">Spartan Ads</div>
          <h2> Learn to Build & Publish Web Apps in 5-9 Weeks! </h2>
-        <p> Join our beginner-friendly courses to master mobile, desktop, and web development with HTML, CSS, & JS. 
-          Enjoy hands-on projects, earn certifications, and get support with internships and mentorship! </p>
+        <p> 
+          Three of my students made $2,500 each this month by developing a simple app <br />
+          and the truth is, digital products are easy to build. Most people just don’t have the right ideas. <br />
+          I made a FULL GUIDE teaching you how to make $2,000/m+.
+        </p>
 
-        <a className="join--button" href="https://t.me/+oCeVAiPJM482NjI0" rel="noreferrer" target="_blank">Only ¢240/mo, Enroll Now </a>
+        <a className="join--button" href="https://t.me/+oCeVAiPJM482NjI0" rel="noreferrer" target="_blank"> Get my masterclass </a>
       </div>
     </div>
   )
