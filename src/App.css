@@ -467,6 +467,10 @@ button {
   border-radius: 0 20px 0 20px;
 }
 
+.b--ads h2 {
+  margin-top: 12px;
+}
+
 span {
   background: var(--Linear-1, linear-gradient(94deg, #F5525B -24.31%, #F6BF47 48.11%, #4BCCA5 138.76%));
   background-clip: text;
