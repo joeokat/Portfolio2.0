@@ -38,7 +38,7 @@ export const PricingPlans = () => {
           title="Web Development"
           service="Take your business or service to the next level with a landing page or website"
           price="¢3,500"
-          features="✓ Responsive Design, ✓ React.js Development, ✓ Simple Form Handling, ✓ Basic SEO Practices, ✓ API Integration"
+          features="✓ Responsive Web Design, ✓ Full-stack Development, ✓ Simple Form Handling, ✓ Basic SEO Practices, ✓ API Integration"
         />
         <PricingCard
           tag="Popular"
@@ -54,7 +54,7 @@ export const PricingPlans = () => {
           title="PWA Development"
           service="Reach new audience everywhere and drive global success"
           price="¢1,500"
-          features="✓  Source File, ✓  Fast Load Time, ✓  Mobile App for publishing, ✓  App-like Experience, ✓  Add to Home Screen Functionality"
+          features=" ✓ Responsive App Design, ✓  App-like Experience, ✓  Fast Load Time, ✓ App Shortcut, ✓  Android App Publishing,  ✓  Add to Home Screen Functionality"
         />
       </div>
     </div>
