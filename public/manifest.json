@@ -2,14 +2,14 @@
   "name": "UI/UX JoeOkat",
   "short_name": "UI/UX JoeOkat",
   "appid": "app.vercel.joeokat",
-  "description": "🎯 I help businesses ship apps to market fast. I will design and develop an app for your business to reach 28k potential customers driving sales exponentially.",
+  "description": "🎯 I help businesses ship apps to market fast. I will design and develop an app for your business to reach 2.8k potential customers driving sales exponentially.",
   "categories": [ "business", "education", "social", "news" ],
   "lang": "en",
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#212121",
-  "background_color": "#161619",
+  "theme_color": "#101010",
+  "background_color": "#161616",
   
   "icons": [
     {
