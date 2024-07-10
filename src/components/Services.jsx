@@ -5,7 +5,7 @@ import code from "../assets/code.png";
 export const Services = () => {
   return (
     <div className='service--container'>
-        <h2>My Services</h2>
+        <h2>My Services 🚀</h2>
 
         <div className="service--row">
         <div className='service--card'>
