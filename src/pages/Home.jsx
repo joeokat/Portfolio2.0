@@ -12,8 +12,8 @@ export default function App() {
         <>
             <Nav />
             <Profile />
-            <Services />
             <Work />
+            <Services />
             <SpartanAds />
             <Socials />    
         </>
