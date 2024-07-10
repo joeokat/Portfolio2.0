@@ -6,6 +6,13 @@ const PricingCard = ({ tag, tagClass, title, service, price, features }) => {
     <p key={index}>{feature.trim()}</p>
   ));
 
+  const openWhatsApp = () => {
+    const phoneNumber = '+233509994874';
+    const message = 'Hello, I am interested in your UI/UX design & development services. Can we discuss further?';
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
+
   return (
     <div className={`details--card ${tagClass}`}>
       <div className='tag'>{tag}</div>
@@ -14,7 +21,7 @@ const PricingCard = ({ tag, tagClass, title, service, price, features }) => {
       <p>{service}</p>
       <hr />
       <div>{featureList}</div>
-      <button onClick={() => window.open('https://wa.me/+233509994874?text=Hello%2C%20I%20am%20interested%20in%20your%20UI/UX%20design%20services.%20Can%20we%20discuss%20further%3F', '_blank')}>Choose Plan</button>
+      <button onClick={openWhatsApp}>Choose Plan</button>
     </div>
   );
 };
