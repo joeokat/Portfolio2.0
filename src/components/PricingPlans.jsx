@@ -14,7 +14,7 @@ const PricingCard = ({ tag, tagClass, title, service, price, features }) => {
       <p>{service}</p>
       <hr />
       <div>{featureList}</div>
-      <button>Choose Plan</button>
+      <button onClick={() => window.open('https://wa.me/+233509994874?text=Hello%2C%20I%20am%20interested%20in%20your%20UI/UX%20design%20services.%20Can%20we%20discuss%20further%3F', '_blank')}>Choose Plan</button>
     </div>
   );
 };
