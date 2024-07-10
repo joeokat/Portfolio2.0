@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Work = () => {
   return (
     <div className='mywork--container'>
-      <h2 className='hire--me'>🎯 Why Choose Me</h2>
+      <h2 className='hire--me'>Why Choose Me 🎯</h2>
       <p className='work--paragraph'>
       I design and develop lightning-fast Progressive Web Apps that reach 
       thousands of users, helping businesses thrive in the global marketplace. 
