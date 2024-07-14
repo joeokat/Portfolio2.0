@@ -5,11 +5,15 @@ export const SpartanAds = () => {
   return (
     <div className="card--container">
       <div className="card">
-        <div className="b--ads"> Ads by Fleet Labs Ghana</div>
-         <h2> BYOI </h2>
+        <div className="b--ads"> Ads by BYOI</div>
+         <h2> Build Your Own Idea </h2>
         <p> 
-        Learn to Build and Monetize iOS and Android Apps with just HTML and CSS. 
-          Get my FULL GUIDE teaching you how to make ¢2,500 in a month+.
+        {/* Learn to Build and Monetize iOS and Android Apps with just HTML and CSS. 
+          Get my FULL GUIDE teaching you how to make ¢2,500 in a month+. */}
+          Everyone should own a mobile or web app that makes at least ¢1.8k/month.
+          Mine made ¢0.6k this month. <br />
+
+          Get my FULL GUIDE teaching how you could do same.
         </p>
 
         <a 
