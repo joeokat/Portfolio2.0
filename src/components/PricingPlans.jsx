@@ -37,7 +37,7 @@ export const PricingPlans = () => {
           tagClass="standard"
           title="Web Development"
           service="Take your business or service to the next level with a landing page or website"
-          price="¢3,500"
+          price="$240"
           features="✓ Responsive Web Design, ✓ Full-stack Development, ✓ Simple Form Handling, ✓ Basic SEO Practices, ✓ API Integration"
         />
         <PricingCard
@@ -45,7 +45,7 @@ export const PricingPlans = () => {
           tagClass="popular"
           title="UI/UX Design"
           service="I'll craft a beautiful web application that resonates with your ideal clients and grows your business"
-          price="¢4,500"
+          price="$305"
           features="✓  User Research, ✓  Lo-Fi Wireframes, ✓  Hi-Fi Mockup Design, ✓  Interactive Prototypes, ✓  Micro Animation, ✓  User Testing"
         />
         <PricingCard
@@ -53,7 +53,7 @@ export const PricingPlans = () => {
           tagClass="best-value"
           title="PWA Development"
           service="Reach new audience everywhere and drive global success"
-          price="¢1,500"
+          price="$100"
           features=" ✓ Responsive App Design, ✓  App-like Experience, ✓  Fast Load Time, ✓ App Shortcut, ✓  Android App Publishing,  ✓  Add to Home Screen Functionality"
         />
       </div>

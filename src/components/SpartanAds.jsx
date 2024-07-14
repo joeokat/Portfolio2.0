@@ -5,11 +5,11 @@ export const SpartanAds = () => {
   return (
     <div className="card--container">
       <div className="card">
-        <div className="b--ads"> Ads by Fleet Labs </div>
-         <h2> Learn to Build Web Apps </h2>
+        <div className="b--ads"> Ads by Fleet Labs Ghana</div>
+         <h2> BYOI </h2>
         <p> 
-          Digital products are very easy to build. Most people just don’t have the right ideas. 
-          Get my FULL GUIDE teaching you how to make ¢2,500+ in a few months.
+        Learn to Build and Monetize iOS and Android Apps with just HTML and CSS. 
+          Get my FULL GUIDE teaching you how to make ¢2,500 in a month+.
         </p>
 
         <a 
@@ -17,7 +17,7 @@ export const SpartanAds = () => {
         href="https://t.me/+oCeVAiPJM482NjI0" 
         rel="noreferrer" 
         target="_blank"> 
-          Get it for only ¢150 
+          Get it for only ¢100 
         </a>
       </div>
     </div>
