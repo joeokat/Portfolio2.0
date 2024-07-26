@@ -6,7 +6,7 @@ export const SpartanAds = () => {
     <div className="card--container">
       <div className="card">
         <div className="b--ads"> Ads by BYOI</div>
-         <h2> Build Your Own Idea </h2>
+         <h2> Build Your Own App </h2>
         <p> 
         {/* Learn to Build and Monetize iOS and Android Apps with just HTML and CSS. 
           Get my FULL GUIDE teaching you how to make ¢2,500 in a month+. */}
@@ -21,7 +21,7 @@ export const SpartanAds = () => {
         href="https://t.me/+oCeVAiPJM482NjI0" 
         rel="noreferrer" 
         target="_blank"> 
-          Get it for only ¢100 
+          Get it for only ¢1,200 
         </a>
       </div>
     </div>
