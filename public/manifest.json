@@ -2,7 +2,7 @@
   "name": "UI/UX JoeOkat",
   "short_name": "UI/UX JoeOkat",
   "appid": "app.vercel.joeokat",
-  "description": "🎯 I help businesses ship apps to market fast. I will design and develop an app for your business to reach 2.8k potential customers driving sales exponentially.",
+  "description": "🎯 I help businesses ship apps to market fast",
   "categories": [ "business", "education", "social", "news" ],
   "lang": "en",
   "start_url": ".",
