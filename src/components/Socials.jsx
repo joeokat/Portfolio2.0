@@ -15,7 +15,7 @@ export default function Socials() {
           <img src={home} alt="" />
         </Link>
         <a
-          href="https://www.threads.net/@joeokatofficial"
+          href="https://www.threads.net/@uxjoeokat"
           target="_blank"
           rel="noreferrer"
         >
