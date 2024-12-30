@@ -52,7 +52,7 @@ const Portfolio = () => {
         
         <ProjectCard
           image={cv}
-          title="Portfolio Website 2.0"
+          title="Portfolio Website 1.0"
           technologies="Frontend: HTML + CSS"
           liveLink="https://joshuaofosu.vercel.app/"
         />
