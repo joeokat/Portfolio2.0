@@ -9,19 +9,19 @@ export const SpartanAds = () => {
          <h2> Build Your Own App </h2>
         <p> 
         {/* Learn to Build and Monetize iOS and Android Apps with just HTML and CSS. 
-          Get my FULL GUIDE teaching you how to make ¢2,500 in a month+. */}
+          Get my FULL GUIDE teaching you how to make ¢3,500 in a month+. */}
           Everyone should own a mobile or web app that makes at least ¢1.8k/month.
-          Mine made ¢0.6k this month. <br />
+          Mine made ¢1.6k last month. <br />
 
           Get my FULL GUIDE teaching how you could do same.
         </p>
 
         <a 
         className="join--button" 
-        href="https://t.me/+oCeVAiPJM482NjI0" 
+        href="https://fb.com/buildyourownidea" 
         rel="noreferrer" 
         target="_blank"> 
-          Get it for only ¢1,200 
+          Get it for only ¢300 
         </a>
       </div>
     </div>
